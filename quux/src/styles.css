@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dish{
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  border: solid 1px black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.dish > img{
+  height: 100px
+}
